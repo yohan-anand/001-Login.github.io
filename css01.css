@@ -1,0 +1,102 @@
+body {
+	background-color: #263d48;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+.main-panel {
+	background-color: #FCFCFC;
+	padding: 50px;
+}
+
+.my-header {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.my-icon-holder{
+	height: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.my-icon {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	color: #21c9a6;
+}
+
+.my-input {
+	padding-left: 40px !important;
+	padding-right: 6px !important;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 2px solid #C4C4C4 !important;
+	background: none;
+	outline: none;
+	box-shadow: none;
+	width: 100% !important;
+}
+
+.my-input:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.my-btn {
+	height: 50px;
+	background-color: #21c9a6;
+	font-size: 18px;
+	padding: 11px;
+	color: white;
+	font-weight: bold;
+}
+
+.my-btn:hover {
+	color: white;
+}
+
+.my-link {
+	text-decoration: underline;
+	color: #bcc9c6;
+	font-size: 14px;
+}
+
+.my-link:hover, .my-link:active, .my-link:focus {
+	color: #bcc9c6
+}
+
+.my-group {
+	width: 100%;
+	margin-bottom: 30px !important;
+}
+
+.my-teal, .my-teal:active, .my-teal:focus, .my-teal:hover {
+	color: 21c9a6;
+}
+
+.bottom-panel {
+	padding: 25px;
+	border-top: 1px solid #e5e5e5;
+	color: #bcc9c6;
+	font-size: 13px;
+}
+
+.my-container {
+	max-width: 450px;
+	margin: 120px auto;
+	border-radius: 3px 3px 3px 3px;
+	border-top: 5px solid #21c9a6;
+	background-color: #FCFCFC;
+}
